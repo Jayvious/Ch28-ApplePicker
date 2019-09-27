@@ -210,7 +210,7 @@ MonoBehaviour:
   basketPrefab: {fileID: 3654727801657574444, guid: ac47f81f82a24a14aab554e317ee9bc6,
     type: 3}
   numBaskets: 3
-  basketBottomY: -142
+  basketBottomY: -10
   basketSpacingY: 2
 --- !u!1 &1420537151
 GameObject:
@@ -288,6 +288,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3333105101408744518, guid: abc9195c781284e4b89f481e9c24264a,
+        type: 3}
+      propertyPath: m_Name
+      value: AppleTree
+      objectReference: {fileID: 0}
     - target: {fileID: 114802482627128598, guid: abc9195c781284e4b89f481e9c24264a,
         type: 3}
       propertyPath: speed
@@ -304,11 +309,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 652586556514830492, guid: 47cef756aed91be4ebeb768600ee7fc2,
         type: 3}
-    - target: {fileID: 3333105101408744518, guid: abc9195c781284e4b89f481e9c24264a,
-        type: 3}
-      propertyPath: m_Name
-      value: AppleTree
-      objectReference: {fileID: 0}
     - target: {fileID: 8056421035183592797, guid: abc9195c781284e4b89f481e9c24264a,
         type: 3}
       propertyPath: m_LocalPosition.x
